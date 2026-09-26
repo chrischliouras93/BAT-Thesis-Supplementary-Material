@@ -19,4 +19,7 @@
 
 ---
 
-Το υλικό παρέχεται ως συμπληρωματικό υλικό της παραπάνω πτυχιακής εργασίας.
+<video controls width="960">
+  <source src="video/BAT_PsychoPy_Test_Demonstration.mp4" type="video/mp4">
+  Το πρόγραμμα περιήγησης δεν υποστηρίζει αναπαραγωγή βίντεο.
+</video>
