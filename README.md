@@ -11,7 +11,11 @@
 Το ηχητικό υλικό είναι οργανωμένο σε δύο μέρη:
 
 - **1ο μέρος:** 14 αποσπάσματα χωρίς μετρονόμο, αποτελούμενα από 2 παραδείγματα εξοικείωσης και 12 αποσπάσματα της πειραματικής διαδικασίας.
-- <img width="867" height="562" alt="image" src="https://github.com/user-attachments/assets/6172b810-ff35-4377-8378-ac25907a4fea" />
+Get-ChildItem ".\audio\part1" -Filter *.wav | ForEach-Object {
+    $name = $_.BaseName
+    $file = [uri]::EscapeDataString($_.Name)
+    "#### $name`n<audio controls preload=`"none`" src=`"audio/part1/$file`"></audio>`n"
+} | Set-Clipboard
 
 - **2ο μέρος:** 42 αρχεία που περιλαμβάνουν τις αντίστοιχες παραλλαγές των αποσπασμάτων με μετρονόμο.
 
