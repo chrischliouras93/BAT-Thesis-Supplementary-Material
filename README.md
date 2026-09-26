@@ -57,7 +57,7 @@
 
 #### s12_complex
 <audio controls preload="none" src="audio/part1/s12_complex.wav"></audio>
-<br>
+<br> <br>
 - **2ο μέρος:** 42 αρχεία που περιλαμβάνουν τις αντίστοιχες παραλλαγές των αποσπασμάτων με μετρονόμο.
 
 #### ex01_simple_on
